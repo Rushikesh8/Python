@@ -1,0 +1,474 @@
+body{
+  margin:0px;
+  font-family: 'Poppins', sans-serif;
+}
+#top-bar{
+width: 100%;
+height: 77px;   
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 28px;
+position:fixed;
+box-sizing: border-box;
+top:0;
+background: white;
+}
+.right-button{
+font-family: 'Poppins';
+font-size:14px;
+font-weight: 600;
+cursor: pointer;
+margin-right:24px;
+}
+.bt{
+width:126px;
+height:32px;
+background-color:rgb(170, 210, 54);
+border: none;
+font-family: arial;
+color: white;
+padding:9px 34px;
+border-radius:4px;
+margin-right:16px;
+font-size: 12px;
+font-weight: 600;
+}
+.logo-img{
+  width:40px;
+  height:40px;
+}
+.bt:hover{
+  cursor: pointer;
+}
+
+#landing-section{
+  width: 100%;
+  background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+}
+.main-text-wrapper{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-text-wrapper h1{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  max-width: 1100px;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 8.8px;
+  text-align: center;
+  margin:0px;
+}
+.main-text-wrapper p{
+width: 100%;
+max-width:1100px;
+font-size:14px;
+letter-spacing: 0.5px;
+font-weight:400;
+color:#8b8b99;
+text-align: center;
+padding-top:32px;
+}
+
+
+
+.cards {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: stretch;
+
+}
+
+.cards h3{
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 600;
+
+}
+.card1 {
+background-color: #5acda6;
+width: 25%;
+padding: 112px 48px;
+text-align: center;
+color: white;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0.5px;
+line-height:1.6;
+font-size:14px;
+}
+
+.card2 {
+background-color: #91ac41;
+width: 25%;
+padding: 112px 48px;
+text-align: center;
+color: white;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0.5px;
+line-height:1.6;
+font-size:14px;
+}
+
+.card3 {
+background-color: #e4b476;
+width: 25%;
+padding: 112px 48px;
+text-align: center;
+color: white;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0.5px;
+line-height:1.6;
+font-size:14px;
+}
+.card4 {
+background-color: #f69dad;
+width: 25%;
+padding: 112px 48px;
+text-align: center;
+color: white;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0.5px;
+line-height:1.6;
+font-size:14px;
+}
+.icons{
+font-size:96px;
+transition: transform 300ms;
+}
+.card1:hover .icons{
+transform: scale(1.1);
+}
+.card2:hover .icons{
+transform: scale(1.1);
+}
+.card3:hover .icons{
+transform: scale(1.1);
+}
+.card4:hover .icons{
+transform: scale(1.1);
+}
+#vegan-section{
+width: 100%;
+background-color: #f7eee2;
+padding-top: 75px;
+padding-bottom: 75px;
+}
+.container{
+margin:auto;
+padding:0 4rem;
+}
+.heading{
+text-align: center;
+margin-bottom:0px;
+}
+#store-items{
+display:flex;
+}
+#store-items h3{
+font-family: 'Poppins', sans-serif;
+font-size:24px;
+font-weight: 600;
+color:black;
+}
+#store-items p{
+font-family: 'Poppins', sans-serif;
+font-family:16px;
+letter-spacing: 0.5px;
+font-weight: 500;
+color:#8b8b99;
+text-align:center;
+
+}
+.item{
+width:25%;
+flex:1;
+padding:24px;
+text-align:center;
+}
+.icon-wrap{
+font-size:60px;
+color:white;
+background-color:#e3b375;
+border-radius:50%;
+padding:40px;
+transition: all 0.3s;
+}
+#store-items .icon-wrap:hover{
+transform: scale(1.1);
+}
+.fresh-food-heading{
+font-family:'Caveat', cursive;
+color:#91ac41;
+font-size:24px;
+margin:0px;
+margin-top:35px ;
+
+}
+.heading h3{
+font-family:'Poppins', sans-serif;
+font-size: 44px;
+font-weight:600;
+margin:0;
+margin-bottom: 8px;
+}
+.vegan-desc{
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+color:#8b8b99;
+margin:0;
+letter-spacing: 0.5px;
+margin-bottom: 55px;
+}
+
+#testimonials-section{
+  width:100%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.testimonial-cards{
+width:100%;
+max-width:1140px;
+margin:0 auto;
+display:flex;
+align-items: center;
+}
+.review-cards{
+width:25%;
+text-align:center;
+background-color: #f5f6fb;
+padding:40px 30px;
+margin:16px;
+border-top-left-radius: 45px;
+border-bottom-left-radius: 45px;
+border-bottom-right-radius: 45px;
+transition: box-shadow 0.3sec;
+}
+.review-cards:hover {
+box-shadow: 0 12px 16px 0 rgba(39,39,47,0.06);
+}
+.review-cards img{
+width:80px;
+height: 80px;
+border-radius:50%;
+margin-bottom: 25px;
+}
+.testimonials-message{
+font-size: 14px;
+color:#8b8b99;
+letter-spacing: 0.5px;
+font-style:italic;
+margin:0;
+}
+.testimonials-by{
+font-size: 16px;
+font-weight:600;
+margin-top:24px;
+margin-bottom: 0px;
+}
+.job-role{
+font-size:12px;
+color:#8b8b99;
+font-style:italic;
+letter-spacing:0.5px;
+margin:0px;
+}
+#follow-section{
+display:flex;
+justify-self: stretch;
+}
+.left-section{
+width:67%;
+display: inline-block;
+margin:0;
+}
+.left-section img{
+width:100%;
+}
+.right-section{
+width:33.33%;
+display: inline-block;
+background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+background-position: left;
+background-size: cover;
+}
+.text-wrap{
+margin:115px;
+}
+.text-wrap h3{
+font-size:44px;
+font-weight:600;
+margin: 0 0 8px;
+}
+.text-wrap p{
+font-size: 16px;
+color:#8b8b99;
+line-height:1.6;
+margin:0;
+}
+#subscribe-email{
+width:100%;
+box-sizing: border-box;
+border:0;
+border-radius:4px;
+font-weight:500;
+background-color: white;
+padding:12px;
+color:#8b8b99;
+font-size:16px;
+margin-top:60px;
+display:block;
+}
+#subscribe-btn{
+background-color: #f69dad;
+padding:16px 42px;
+border-radius:4px;
+cursor:pointer;
+color:white;
+border:0;
+font-size:14px;
+font-weight:600;
+text-transform: uppercase;
+margin:16px 16px 16px 0px;
+}
+#stats-section{
+width:100%;
+background-color: #f6fcfa;
+}
+.stats-wrap{
+width:100%;
+max-width: 1140px;
+padding: 100px 0px;
+margin:0 auto;
+text-align: center;
+display: flex;
+justify-content: stretch;
+}
+.stats-item{
+width:25%;
+padding: 0 64px;
+}
+.stats-item h3{
+font-size:44px;
+font-weight: 600;
+margin:0; 
+}
+.stats-item p{
+color:#57e3b5;
+font-size:14px;
+letter-spacing: 0.5px;
+font-style: italic;
+margin:0;
+}
+#video-section{
+display: block;
+text-align: center;
+}
+#video-section h3{
+color:#8b8b99;
+font-size:44px;
+font-weight:400;
+text-align: center;
+}
+#video-section iframe{
+width:100%;
+height:425px;
+border: white;
+}
+#line-separator{
+width: 96px;
+display:inline-block;
+height:1px;
+background-color: #e4b476;
+margin-bottom: 36px;
+}
+#address-section{
+display:block;
+}
+#address-wrap{
+width:100%;
+max-width:1140px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding:100px 0;
+}
+#address-wrap > div{
+width:50%
+}
+#address-wrap > 
+div:last-of-type{
+width:40%
+}
+.green-heading{
+color:#91ac41;
+font-size:24px;
+font-family:'Caveat', cursive;
+margin: 35px 0px 0px 0px;
+}
+.section-heading{
+font-size:44px;
+margin:0;
+}
+.section-description{
+font-size:16px;
+font-weight:400;
+color:#8b8b99;
+letter-spacing: 0.5px;
+}
+.address-heading{
+font-size:24px;
+font-weight:600;
+margin: 32px 0px 0px 0px; 
+}
+.address-line{
+font-size:16px;
+font-weight:400;
+color:#8b8b99;
+letter-spacing: 0.5px;
+line-height: 2 ;
+margin:0;
+}
+.input-box{
+font-family: 'Poppins', sans-serif;
+width:100%;
+padding:16px;
+font-size:16px;
+color:#8b8b99;
+border:1px solid #e5e6ec;
+border-radius:6px;
+margin-bottom:16px;
+box-sizing: border-box;
+}
+.primary-button{
+font-size: 16px;
+font-weight:600;
+color:white;
+background-color: rgb(170, 210, 54);
+padding: 9px 34px;
+text-transform: uppercase;
+border:0;
+border-radius:4px;
+margin-right:16px;
+cursor:pointer;
+}
+footer{
+background-color: #232323;
+color: white;
+font-size:14px;
+letter-spacing: 0.5px;
+text-align: center;
+padding:30px 0px;
+}      
